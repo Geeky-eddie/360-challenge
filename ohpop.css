@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pgbody{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/Dr.-Paul-Enenche\ oh\ prince\ of\ peace.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar, .navbar-expand-lg, .nav, .flex-column {
+    align-items: center;
+    width: 200%;
+}
+.navbar{
+    width: 13vh;
+    align-items: flex-start;
+    padding-top: 98px;
+    position: fixed;
+}
+a.navbar-brand{
+    margin: 0%;
+    padding-left: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 75%;
+}
+.form-control, .me-2, .d-flex {
+    background-color:rgba(0,0,0,0.3);
+    /* background: #2e2e2e; */
+    border: transparent;
+    outline: none;
+    
+
+}
+.btn, .btn-outline-success{
+    border: transparent;
+    outline: none;
+    color: grey;
+}
+.underl{
+    color: #6d6b6b;
+}
+.topleftimg img{
+    position: absolute;
+    left: 140px;
+    top: 107px;
+    border-radius: 20px;
+    width: 284px;
+    height: 288px;
+}
+.gao{
+    position: absolute;
+    left: 480px;
+    top: 137px;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 450;
+}
+.gao2{
+    position: absolute;
+    left: 486px;
+    top: 229px;
+    font-size: 20px;
+    color: #fff;
+}
+.gao3{
+    position: absolute;
+    left: 486px;
+    top: 379px;
+    font-size: 20px;
+    color: #fff;
+}
+.fr25{
+    position: absolute;
+    left: 480px;
+    top: 424px;
+}
+.rec24:hover{
+    opacity: 1;
+}
+.rec24{
+    padding-top: 23px;
+    position: relative;
+    opacity: 0;
+    transition: all .10s ease;
+   
+    
+}
+.recrec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 480px;
+    padding-left: 47px;
+    position: relative;
+}
+.smimg{
+    height: 39px;
+    width: 39px;
+    border-radius: 10px;
+    position: absolute;
+    left: 144px;
+    top: 511px;
+}
+.smimg1{
+    height: 39px;
+    width: 39px;
+    border-radius: 10px;
+    position: absolute;
+    left: 144px;
+    top: 591px;
+}
+.smimg2{
+    height: 39px;
+    width: 39px;
+    border-radius: 10px;
+    position: absolute;
+    left: 144px;
+    top: 669px;
+}
+.smimg3{
+    height: 39px;
+    width: 39px;
+    border-radius: 10px;
+    position: absolute;
+    left: 144px;
+    top: 749px;
+}
+.smimg4{
+    height: 39px;
+    width: 39px;
+    border-radius: 10px;
+    position: absolute;
+    left: 144px;
+    top: 828px;
+}
+.smimg5{
+    height: 39px;
+    width: 39px;
+    border-radius: 10px;
+    position: absolute;
+    left: 144px;
+    top: 907px;
+}
+.smimg6{
+    height: 39px;
+    width: 39px;
+    border-radius: 10px;
+    position: absolute;
+    left: 144px;
+    top: 984px;
+}
+.smimg7{
+    height: 39px;
+    width: 39px;
+    border-radius: 10px;
+    position: absolute;
+    left: 144px;
+    top: 1065px;
+}
+.smimg8{
+    height: 39px;
+    width: 39px;
+    border-radius: 10px;
+    position: absolute;
+    left: 144px;
+    top: 1143px;
+}
+.smimg9{
+    height: 39px;
+    width: 39px;
+    border-radius: 10px;
+    position: absolute;
+    left: 144px;
+    top: 1224px;
+}
+.hert{
+    position: absolute;
+    left: 201px;
+    top: 522px;
+}
+.hert1{
+    position: absolute;
+    left: 201px;
+    top: 604px;
+}
+.hert2{
+    position: absolute;
+    left: 201px;
+    top: 682px;
+}
+.hert3{
+    position: absolute;
+    left: 201px;
+    top: 761px;
+}
+.hert4{
+    position: absolute;
+    left: 201px;
+    top: 840px;
+}
+.hert5{
+    position: absolute;
+    left: 201px;
+    top: 918px;
+}
+.hert6{
+    position: absolute;
+    left: 201px;
+    top: 996px;
+}
+.hert7{
+    position: absolute;
+    left: 201px;
+    top: 1077px;
+}
+.hert8{
+    position: absolute;
+    left: 201px;
+    top: 1155px;
+}
+.hert9{
+    position: absolute;
+    left: 201px;
+    top: 1237px;
+}
+.sngname{
+    color: #fff;
+    position: absolute;
+    left: 330px;
+    top: 519px;
+}
+.sngname1{
+    color: #fff;
+    position: absolute;
+    left: 330px;
+    top: 596px;
+}
+.sngname2{
+    color: #fff;
+    position: absolute;
+    left: 330px;
+    top: 675px;
+}
+.sngname3{
+    color: #fff;
+    position: absolute;
+    left: 330px;
+    top: 756px;
+}
+.sngname4{
+    color: #fff;
+    position: absolute;
+    left: 330px;
+    top: 832px;
+}
+.sngname5{
+    color: #fff;
+    position: absolute;
+    left: 330px;
+    top: 916px;
+}
+.sngname6{
+    color: #fff;
+    position: absolute;
+    left: 330px;
+    top: 991px;
+}
+.sngname7{
+    color: #fff;
+    position: absolute;
+    left: 330px;
+    top: 1076px;
+}
+.sngname8{
+    color: #fff;
+    position: absolute;
+    left: 330px;
+    top: 1150px;
+}
+.sngname9{
+    color: #fff;
+    position: absolute;
+    left: 330px;
+    top: 1234px;
+}
+.sntime{
+    left: 765px;
+    position: absolute;
+}
+.bi-three-dots{
+    position: absolute;
+    left: 83px;
+}
+
+
+.blrec{
+    height: 230px;
+    width: 52px;
+    left: 0px;
+    top: 0px;
+    border-radius: 32px;
+    background: #1A1E1F;
+    position: relative;    
+    left: 8px;
+}
+.nav-stuff{
+    position: absolute;
+    top: 125px;
+    left: 22px;
+}
+.blrec2{
+    position: relative;
+width: 52px;
+height: 127px;
+left: 10px;
+top: 20px;
+background: #1A1E1F;
+border-radius: 32px;
+}
+.second{
+    position: absolute;
+    top: 370px;
+    left: 23px;
+}
+body{
+    /* box-sizing: border-box; */
+
+    /* position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; */
+    
+    /* background: rgba(29, 33, 35, 0.3); */
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    
+}
+.player{
+    /* height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; */
+    position: absolute;
+    width: 1292px;
+    height: 125px;
+    left: -5px;
+    top: 722px;
+    
+    filter: drop-shadow(0px -25px 100px rgba(16, 16, 16, 0.51));
+    
+}
+.music-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+.music-img, .muse-img {
+    /* position: absolute;
+left: 7.82%;
+right: 88.39%;
+top: 25.6%;
+bottom: 35.2%;
+
+background: url(pictures/almightyGod.jpg);
+box-shadow: 0px 15px 17px -10px rgba(0, 0, 0, 0.61);
+border-radius: 14px;
+background-size: cover;
+background-position: center; */
+        margin: 25px;
+        height: 49px;
+        width: 49px;
+        /* background-image: URL(pictures/almightyGod.jpg); */
+        background-size: cover;
+        background-position: center;
+        border-radius: 15%;
+      
+  }
+  .main-controls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .playpause,
+.prevbtn,
+.nextbtn, .repeatbtn, .likebtn {
+  padding: 7px;
+  opacity: 0.8;
+  transition: opacity .2s;
+}
+.playpause-track:hover,
+.prev-track:hover,
+.next-track:hover {
+  opacity: 1.0;
+} 
+.music-progress {
+    width: 75%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .progress-bar, .volume-slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: black;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  .progress-bar::-webkit-slider-thumb,
+  .volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background:#FACD66;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.progress-bar:hover,
+.volume-slider:hover {
+  opacity: 2.0;
+}
+/* .progress-bar {
+    width: 749px;
+    height: 4px;
+  } */
+  /* .volume-slider {
+    width: 160px;
+    height: 3px;
+    color: #FACD66;
+  } */
+  .current-time,
+.duration-time{
+  padding: 10px;
+}
+/* i .bi-volume-down-fill,
+i .bi-volume-up-fill{
+  padding: 10px;
+} */
+i.fa-volume-down,
+i .fa-volume-up{
+    padding: 10px;
+}
+i.fa-pause,
+i.fa-play{
+    cursor: pointer;
+    color: #FACD66;
+}
+i.fa-redo-alt,
+i.fa-forward,
+i.fa-backward{
+  cursor: pointer;
+  color: #fff
+}
+.blurrybg{
+  /* box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(29, 33, 35, 0.3);
+border: 1px solid rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(15px); */
+}
+.footrec{
+  width: 98vw;
+    position: inherit;
+    display: block;
+    padding-top: 71px;
+    top: 26px;
+}
+.fa-play:before,
+.fa-pause:before {
+  content: "\f04b";
+  position: absolute;
+  top: 38px;
+  left: 671px;
+}
+.fa-backward:before {
+  content: "\f04a";
+    position: absolute;
+    top: 38px;
+    left: 605px;
+}
+.fa-forward:before {
+  content: "\f04e";
+    position: absolute;
+    top: 38px;
+    left: 721px;
+}
+.fa-volume-up:before {
+  content: "\f028";
+    position: absolute;
+    left: 1123px;
+    top: 30px;
+    color: #fff;
+}
+.progress{
+  position: absolute;
+    width: 749px;
+    height: 7px;
+    accent-color: #FACD66;
+    border-radius: 50px;
+    top: 75px;
+    left: 323px;
+}
+.current-time{
+  padding: 12px;
+  position: absolute;
+  top: 54px;
+  left: 268px;
+  color: #fff;
+}
+.duration-time{
+  padding: 12px;
+    position: absolute;
+    top: 54px;
+    left: 1076px;
+    color: #fff;
+}
+.volumerange{
+  width: 160px;
+    height: 3px;
+    border-radius: 43px;
+    position: absolute;
+    accent-color: #FACD66;
+    top: 37px;
+    left: 1150px;
+}
+.fa-redo-alt:before {
+  position: absolute;
+    top: 38px;
+    left: 554px;
+
+}
+.fa-heart:before {
+  content: "\f004";
+  position: absolute;
+  color: #fff;
+  top: 38px;
+  left: 770px;
+}
+.musename{
+  position: absolute;
+    top: 39px;
+    left: 123px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+}
+/* .musename2{
+    position: absolute;
+      top: 65px;
+      left: 97px;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 32px;
+      height: 12px;
+      color: #fff;
+font-size: 10px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+text-align: center;
+
+  } */
+/* footer{
+  max-height: 900px;
+} */
+.muse-img {
+    
+  height: 49px;
+  width: 49px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
+  position: absolute;
+  top: -3px;
+  left: 34px;
+}
+.myfooter{
+    box-sizing: border-box;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    top: 82%;
+    background: rgba(12, 12, 12, 0.767);
+    /* border: 1px solid rgba(58, 57, 57, 0.1); */
+    /* backdrop-filter: blur(15px); */
+    height: 125px;
+    width: 1346px;
+    position: fixed;
+
+}
